@@ -1,9 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://exam-uad.vercel.app/</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://exam-uad.vercel.app/</loc><priority>1.0</priority></url>
+  <url><loc>https://exam-uad.vercel.app/DD.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/gestionDD.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/economieDD.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/peddDD.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/sociodd.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/TFE.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/redaction administrative.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 2.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/algo.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/page4.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/fiscalite.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/analyse.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/SE.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 3.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/algebre.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 6.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/financePubliqueIJ.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ij2.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/tecd2a.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/algoII.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/nyquist.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 4.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/tec.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/tecij.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/management-de-projet.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/principe_economie.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ecoma.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/sg3.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/fiscalite-locale.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/management-public.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/entreprenaria.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/management-RSO.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/planifiaction-fin.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/compta-societe.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/finance-public.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/planification.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/getion-budget.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/page7.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/admin-linux.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/linux.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/srt2.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/page8.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/SIBD.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/reseaux2.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/RO.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/RSF.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/electronique.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/LC.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/pg.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/page3.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/tecsg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/page6.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/page5.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/page2.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/page1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/srt.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/admisL.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/linux user.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/php.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/admisW.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/merise.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/principal.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 14.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/td algo.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam8.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 5.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 15.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 16.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 11.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 13.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 9.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 12.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam10.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/PRINCSG1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/statsg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/sociogene.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/SG1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/intdr.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/comptasg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/pppsg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/org.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/nyquist2.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/nyquist1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/DD3.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/DD2.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/secom3.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/secom2.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/scom.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ecoma3.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ecoma2.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ij3.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ij1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/mpci2.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/mpci1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/mpci.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/SG.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/srt3.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/fondsg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/socioorg.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/math-fin.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/droit-admin.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/droit-aff.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ecosg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/probasg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/anglais.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/sociosg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/Algsg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/Untitled-1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/admin1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/googleb94999f67889110c.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/javascript.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/languageC.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/réseau.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/Untitled-2.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/java.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/H-P.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/sociologie.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/windows.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/comptaij.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/informatique ij.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/judi.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/histoire du droit.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/english.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/intro.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/institu.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/Driot cv.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/og.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/economie politique.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/droit fam.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/Droit constitutionel.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/droit pers.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/systeme-poli.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/tdsg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/qcmsg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ratrapagesg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/burosg1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/Nutrition et Alimentation.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ana-phy.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/BIOCHIMIE.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/rattrapage.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/info.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/MNT.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/mt.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ETH.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/td-secom.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/sci-edu.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/SR.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/SO-ANT.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/epi-bio.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ED.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/comptablite de getion.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/cration d%27entreprise.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/economie general.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/access.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/PPP.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/introduction au mode de financement.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/td sg.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/QCM.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ratrapage.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/td ato.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/td analyse.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/td algebre.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 1.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/exam 7.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/probabilite.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/compta.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/reseaux.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/initinfo.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/ato.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/uadb.html</loc><priority>0.8</priority></url>
+  <url><loc>https://exam-uad.vercel.app/htmlcss.html</loc><priority>0.8</priority></url>
 </urlset>
