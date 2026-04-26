@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partager une épreuve</title>
+
+<style>
+
+/* ===== RESET ===== */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Segoe UI',sans-serif;
+}
+
+body{
+  min-height:100vh;
+  background:linear-gradient(135deg,#1a232f 0%,#01132b 50%,#0f335e 100%);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:20px;
+  color:white;
+}
+
+/* ===== HEADER ===== */
+.entete{
+  width:100%;
+  max-width:1000px;
+  margin-bottom:30px;
+}
+
+.fermer{
+  padding:10px 20px;
+  border:none;
+  border-radius:25px;
+  background:#4a90e2;
+  color:white;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.fermer:hover{
+  background:#357abd;
+  transform:translateY(-2px);
+}
+
+/* ===== FORM SECTION ===== */
+.contact-section{
+  width:100%;
+  max-width:600px;
+  background:rgba(255,255,255,0.1);
+  backdrop-filter:blur(15px);
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+.contact-section h2{
+  text-align:center;
+  margin-bottom:25px;
+  color:burlywood;
+}
+
+form{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+input, textarea{
+  padding:12px;
+  border-radius:10px;
+  border:none;
+  outline:none;
+  font-size:14px;
+}
+
+input[type="file"]{
+  background:white;
+  padding:8px;
+}
+
+textarea{
+  resize:none;
+}
+
+.btn{
+  padding:12px;
+  border:none;
+  border-radius:25px;
+  background:#25D366;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+  transition:.3s;
+}
+
+.btn:hover{
+  background:#1ebe5d;
+  transform:translateY(-2px);
+}
+
+.info-text{
+  margin-top:20px;
+  font-size:14px;
+  text-align:center;
+  color:#ffd966;
+}
+
+/* ===== MOBILE ===== */
+@media(max-width:480px){
+
+  .contact-section{
+    padding:20px;
+  }
+
+  .btn{
+    font-size:14px;
+  }
+
+}
+
+</style>
+</head>
+<body>
+
+<header class="entete">
+  <a href="index.html">
+    <button class="fermer">← ACCUEIL</button>
+  </a>
+</header>
+
+<div class="contact-section">
+
+  <h2>Partager une épreuve</h2>
+
+  <form onsubmit="sendToWhatsApp(event)">
+
+    <input type="text" id="nom" placeholder="Votre nom complet" required>
+
+    <input type="text" id="filiere" placeholder="Votre filière (ex : D2A, SRT...)" required>
+
+    <input type="text" id="matiere" placeholder="Matière et année (ex : Maths 2023)" required>
+
+    <input type="file" required>
+
+    <textarea id="message" placeholder="Informations supplémentaires..." rows="4"></textarea>
+
+    <button type="submit" class="btn">
+      Envoyer via WhatsApp
+    </button>
+
+  </form>
+
+  <p class="info-text">
+    🚨 Après l’ouverture de WhatsApp, veuillez joindre le fichier manuellement.
+  </p>
+
+</div>
+
+<script>
+function sendToWhatsApp(event){
+  event.preventDefault();
+
+  let nom = document.getElementById("nom").value.trim();
+  let filiere = document.getElementById("filiere").value.trim();
+  let matiere = document.getElementById("matiere").value.trim();
+  let message = document.getElementById("message").value.trim();
+
+  let numero = "221705541540";
+
+  let texte =
+    "Bonjour, je souhaite partager une épreuve.\n\n" +
+    "Nom : " + nom + "\n" +
+    "Filière : " + filiere + "\n" +
+    "Matière : " + matiere + "\n" +
+    "Message : " + message + "\n\n" +
+    "Je joins le fichier ci-dessous.";
+
+  let url = "https://wa.me/" + numero + "?text=" + encodeURIComponent(texte);
+
+  window.open(url, "_blank");
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="srt.css">
+</head>
+<body>
+    <header class="entete">
+   <a href="index.html#dr">
+        <button class="fermer"> < ACCEUIL </button>
+    </a
+    >
+    </header>
+    <div class="page">
+        <div class="LICENCE">
+            <button class="li" onclick="location.href='mpci.html'">LICENCE 1</button>
+            <button class="li" onclick="location.href='mpci1.html'">LICENCE 2</button>
+            <button class="li" onclick="location.href='mpci2.html'">LICENCE 3</button>
+        </div>
+        <div class="researcher">
+
+  <div class="skull"></div>
+  <div class="hair-top"></div>
+
+  <div class="glasses">
+    <div class="glass"></div>
+    <div class="bridge"></div>
+    <div class="glass"></div>
+  </div>
+
+  <div class="labcoat"></div>
+
+  <div class="arm-lab arm-left-lab"></div>
+  <div class="arm-lab arm-right-lab"></div>
+
+  <div class="flask">
+      <div class="liquid"></div>
+      <div class="bubble" style="left:8px; animation-delay:0s;"></div>
+      <div class="bubble" style="left:14px; animation-delay:1s;"></div>
+  </div>
+
+</div>
+
+<script>
+// Petit effet scientifique : changement de couleur du liquide
+const liquid = document.querySelector(".liquid");
+
+setInterval(() => {
+  const colors = ["lime", "cyan", "magenta", "yellow"];
+  liquid.style.background = colors[Math.floor(Math.random()*colors.length)];
+}, 2000);
+</script>
+
+    </div>
+</body>
+</html>

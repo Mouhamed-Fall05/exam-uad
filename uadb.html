@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation d'ouverture Université</title>
+    <link rel="stylesheet" href="srt.css">
+</head>
+<body>
+    <div class="intro-container">
+        <div class="black-screen"></div>
+        <div class="light-flare"></div>
+        
+        
+        <div class="university-logo">
+            <img src="OIP.webp" alt="Logo Université" class="logo-image" id="logoImage">
+        </div>
+        
+       
+        <div class="logo-breakup">
+            <div class="break-line line-1"></div>
+            <div class="break-line line-2"></div>
+            <div class="break-line line-3"></div>
+            <div class="break-line line-4"></div>
+            <div class="break-line line-5"></div>
+            <div class="break-line line-6"></div>
+            <div class="break-line line-7"></div>
+            <div class="break-line line-8"></div>
+        </div>
+        
+        
+        <div class="homepage">
+            <img src="OIP.webp" alt="Badge Université" class="university-badge" style="border-radius:50%;">
+            <h1>Université Alioune Diop de Bambey</h1>
+            <div class="subtitle">UADB</div>
+            <div class="motto">« L'Excellence est ma Constance, l'Éthique ma Vertu »</div>
+        </div>
+        
+        <!-- Bouton pour rejouer l'animation -->
+        <button class="replay-btn" id="replayBtn">
+            ↻ Revoir l'animation
+        </button>
+    </div>
+    
+    <!-- Audio pour le son -->
+    <audio id="universitySound" preload="auto">
+        <source src="https://assets.mixkit.co/active_storage/sfx/286/286-preview.mp3" type="audio/mpeg">
+        Votre navigateur ne supporte pas l'élément audio.
+    </audio>
+
+    <script>
+        // Fonction pour jouer l'animation
+        function playAnimation() {
+            // Réinitialiser toutes les animations
+            const elements = document.querySelectorAll('.black-screen, .university-logo, .logo-breakup, .light-flare, .homepage, .homepage h1, .homepage .subtitle, .homepage .motto, .university-badge');
+            
+            elements.forEach(element => {
+                // Réinitialiser l'élément
+                element.style.animation = 'none';
+                element.offsetHeight; // Déclencher un reflow
+            });
+            
+            // Redémarrer l'audio
+            const sound = document.getElementById('universitySound');
+            sound.currentTime = 0;
+            
+            // Jouer le son avec un léger délai pour synchroniser avec l'animation
+            setTimeout(() => {
+                sound.play().catch(e => console.log("Lecture audio bloquée par le navigateur"));
+            }, 500);
+            
+            // Réappliquer les animations
+            const blackScreen = document.querySelector('.black-screen');
+            const universityLogo = document.querySelector('.university-logo');
+            const logoBreakup = document.querySelector('.logo-breakup');
+            const flare = document.querySelector('.light-flare');
+            const homepage = document.querySelector('.homepage');
+            const homepageH1 = document.querySelector('.homepage h1');
+            const homepageSubtitle = document.querySelector('.homepage .subtitle');
+            const homepageMotto = document.querySelector('.homepage .motto');
+            const universityBadge = document.querySelector('.university-badge');
+            const breakLines = document.querySelectorAll('.break-line');
+            
+            // Réappliquer les styles d'animation
+            blackScreen.style.animation = 'fadeOut 0.5s 2.5s forwards';
+            universityLogo.style.animation = 'logoEntrance 1.2s 0.5s cubic-bezier(0.2, 0.8, 0.3, 1) forwards, logoScaleUp 1s 1.8s ease-out forwards, logoPulse 1.5s 2.8s ease-in-out, fadeOut 0.8s 4.5s forwards';
+            logoBreakup.style.animation = 'breakAppear 0.1s 4s forwards';
+            flare.style.animation = 'flareAppear 0.5s 1s forwards, flarePulse 2s 1.5s infinite alternate, fadeOut 0.5s 3.8s forwards';
+            homepage.style.animation = 'fadeIn 1s 5s forwards';
+            homepageH1.style.animation = 'slideUp 0.8s 5.5s forwards';
+            homepageSubtitle.style.animation = 'slideUp 0.8s 5.7s forwards';
+            homepageMotto.style.animation = 'slideUp 0.8s 5.9s forwards';
+            universityBadge.style.animation = 'fadeIn 1s 5.3s forwards';
+            
+            // Réinitialiser et réappliquer l'animation des lignes de décomposition
+            breakLines.forEach(line => {
+                line.style.animation = 'none';
+                line.offsetHeight;
+                line.style.animation = 'breakLine 0.8s 4.1s cubic-bezier(0.5, 0, 0.75, 0) forwards';
+            });
+        }
+        
+        // Lancer l'animation au chargement de la page
+        document.addEventListener('DOMContentLoaded', function() {
+            // Ici, vous devez remplacer l'URL du placeholder par l'URL réelle de votre logo
+            const logoImage = document.getElementById('logoImage');
+            const badgeImage = document.querySelector('.university-badge');
+            
+            // Pour utiliser votre image réelle, remplacez ces URLs
+            // logoImage.src = "URL_DE_VOTRE_LOGO";
+            // badgeImage.src = "URL_DE_VOTRE_LOGO";
+            
+            // Démarrer l'animation après un court délai
+            setTimeout(playAnimation, 500);
+            
+            // Gérer le bouton de replay
+            const replayBtn = document.getElementById('replayBtn');
+            replayBtn.addEventListener('click', playAnimation);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="srt.css">
+</head>
+<body>
+     <header class="entete">
+       <a href="index.html#dr">
+        <button class="fermer"> < ACCEUIL </button>
+    </a>
+    </header>
+    <div class="page">
+        <div class="LICENCE">
+            <button class="li" onclick="location.href='ij1.html'">LICENCE 1</button>
+            <button class="li" onclick="location.href='ij2.html'">LICENCE 2</button>
+            <button class="li" onclick="location.href='ij3.html'">LICENCE 3</button>
+        </div>
+         <svg class="personnage" viewBox="0 0 200 400">
+
+            <!-- Tête -->
+            <circle cx="100" cy="70" r="40" fill="#f1c27d"/>
+
+            <!-- Yeux -->
+            <circle cx="85" cy="65" r="5" fill="black"/>
+            <circle cx="115" cy="65" r="5" fill="black"/>
+
+            <!-- Bouche -->
+            <path d="M85 85 Q100 95 115 85" stroke="black" stroke-width="3" fill="none"/>
+
+            <!-- Robe juriste -->
+            <path d="M60 120 L140 120 L170 350 L30 350 Z" fill="black"/>
+
+            <!-- Col blanc -->
+            <rect x="80" y="110" width="40" height="30" fill="white"/>
+
+            <!-- Bras gauche -->
+            <rect class="bras" x="20" y="140" width="25" height="120" rx="10" fill="black"/>
+
+            <!-- Bras droit -->
+            <rect class="bras" x="155" y="140" width="25" height="120" rx="10" fill="black"/>
+
+        </svg>
+
+        <script>
+        const personnage = document.querySelector(".personnage");
+
+        personnage.addEventListener("click", () => {
+            document.body.style.background = 
+            document.body.style.background.includes("cccccc")
+            ? "linear-gradient(to bottom, #dfe9f3, #ffffff)"
+            : "linear-gradient(to bottom, #e6e6e6, #cccccc)";
+        });
+        </script>
+    </div>
+</body>
+</html>

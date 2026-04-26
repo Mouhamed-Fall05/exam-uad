@@ -1,0 +1,29 @@
+# ==============================
+# Fichiers système (macOS / Windows)
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Variables sensibles (ex: clés API)
+# ==============================
+.env
+
+# ==============================
+# Fichiers temporaires / logs
+# ==============================
+*.log
+*.tmp
+
+# ==============================
+# Dossiers d'éditeurs
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Captures et dossiers de tests
+# ==============================
+screenshots/
+test/
+.vercel

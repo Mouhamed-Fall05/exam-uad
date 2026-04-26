@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Épreuves – Développement Web & Mobile</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bleu:#2071b3;
+  --bleu-fonce:#154a79;
+  --marron:#8b5a2b;
+  --beige:#f5e9d7;
+  --texte:#2b2b2b;
+}
+body{
+  font-family:'Inter',sans-serif;
+  background:#f2e7d8;
+  color:var(--texte);
+}
+
+/* MOTIVATION */
+.motivation{
+  max-width:900px;
+  margin:40px auto 20px auto;
+  padding:25px;
+  background:#fff;
+  border-left:6px solid var(--bleu);
+  border-radius:10px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.1);
+  line-height:1.6;
+}
+.motivation h2{
+  color:var(--bleu-fonce);
+  margin-bottom:15px;
+  text-align:center;
+}
+
+/* GRILLE */
+#home{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+  max-width:1000px;
+  margin:20px auto 60px auto;
+  padding:20px;
+}
+.card{
+  border-radius:14px;
+  padding:25px;
+  text-align:center;
+  background:#fff;
+  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+  transition:.3s;
+}
+.card:hover{transform:translateY(-6px);}
+.card a{text-decoration:none;color:inherit;}
+.card h3{color:var(--bleu-fonce);margin-bottom:10px;}
+.card span{
+  background:var(--marron);
+  color:#fff;
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:13px;
+}
+
+/* MODALES */
+.section{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.6);
+}
+.section:target{display:flex}
+.box{
+  background:#fff;
+  margin:auto;
+  width:90%;
+  max-width:700px;
+  padding:30px;
+  border-radius:14px;
+  border:3px solid var(--bleu);
+  text-align:center;
+}
+.box h2{color:var(--bleu-fonce);margin-bottom:25px;}
+.epreuve{
+  display:block;
+  background:var(--bleu);
+  color:#fff;
+  padding:16px;
+  margin:15px 0;
+  border-radius:10px;
+  font-weight:600;
+  text-decoration:none;
+}
+.epreuve:hover{background:var(--marron);}
+.back a{color:var(--marron);text-decoration:none;font-weight:600;}
+
+@media(max-width:900px){#home{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){#home{grid-template-columns:1fr}}
+</style>
+</head>
+
+<body>
+
+<h1 style="text-align:center;margin-top:40px;">Épreuves – Développement Web & Mobile</h1>
+
+<!-- MOTIVATION VISIBLE -->
+<div class="motivation">
+  <h2>Motivation</h2>
+  <p>
+    Je suis passionné par le développement web et mobile et je souhaite approfondir mes compétences
+    tout en travaillant sur des projets concrets. Mon objectif est de devenir un développeur polyvalent
+    capable de créer des applications performantes et intuitives. Je suis motivé par la curiosité,
+    l’innovation et le désir constant d’apprendre et de progresser dans le domaine numérique.
+  </p>
+</div>
+
+<p style="text-align:center;">Clique sur une matière</p>
+
+<section id="home">
+  <div class="card"><a href="#linuxuser"><h3>Linux utilisateur</h3><span>L2 D2A</span></a></div>
+  <div class="card"><a href="#reseaux"><h3>Réseaux</h3><span>L2 D2A</span></a></div>
+  <div class="card"><a href="#merise"><h3>Merise</h3><span>L2 D2A</span></a></div>
+  <div class="card"><a href="#c"><h3>Langage C</h3><span>L2 D2A</span></a></div>
+  <div class="card"><a href="#js"><h3>JavaScript</h3><span>L2 D2A</span></a></div>
+  <div class="card"><a href="#php"><h3>PHP</h3><span>L2 D2A</span></a></div>
+  <div class="card"><a href="#java"><h3>Java</h3><span>L2 D2A</span></a></div>
+  <div class="card"><a href="#adminlinux"><h3>Administration Linux</h3><span>L2 D2A</span></a></div>
+  <div class="card"><a href="#adminwindows"><h3>Administration Windows</h3><span>L2 D2A</span></a></div>
+</section>
+
+<!-- SECTIONS MODALES -->
+<section class="section" id="linuxuser"><div class="box"><h2>Linux utilisateur</h2><a class="epreuve" href="linux user.html">📘 Examen </a><div class="back"><a href="#home">← Retour</a></div></div></section>
+<section class="section" id="reseaux"><div class="box"><h2>Réseaux</h2><a class="epreuve" href="réseau.html">📘 Examen</a><div class="back"><a href="#home">← Retour</a></div></div></section>
+<section class="section" id="merise"><div class="box"><h2>Merise</h2><a class="epreuve" href="merise.html">📘 Examen </a><div class="back"><a href="#home">← Retour</a></div></div></section>
+<section class="section" id="c"><div class="box"><h2>Langage C</h2><a class="epreuve" href="languageC.html">📘 Examen </a><div class="back"><a href="#home">← Retour</a></div></div></section>
+<section class="section" id="js"><div class="box"><h2>JavaScript</h2><a class="epreuve" href="javascript.html">📘 Examen</a><div class="back"><a href="#home">← Retour</a></div></div></section>
+<section class="section" id="php"><div class="box"><h2>PHP</h2><a class="epreuve" href="php.html">📘 Examen </a><div class="back"><a href="#home">← Retour</a></div></div></section>
+<section class="section" id="java"><div class="box"><h2>Java</h2><a class="epreuve" href="java.html">📘 Examen </a><div class="back"><a href="#home">← Retour</a></div></div></section>
+<section class="section" id="adminlinux"><div class="box"><h2>Administration Linux</h2><a class="epreuve" href="admisL.html">📘 Examen </a><div class="back"><a href="#home">← Retour</a></div></div></section>
+<section class="section" id="adminwindows"><div class="box"><h2>Administration Windows</h2><a class="epreuve" href="admisW.html">📘 Examen </a><div class="back"><a href="#home">← Retour</a></div></div></section>
+
+</body>
+</html>
