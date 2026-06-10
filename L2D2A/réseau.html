@@ -25,29 +25,6 @@ body{
   padding:20px;
 }
 
-.btn-retour {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: #154a79;
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 25px;
-  font-family: 'Inter', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  margin: 20px;
-  transition: background .25s;
-}
-.btn-retour:hover { background: #8b5a2b; }
-h1{
-  text-align:center;
-  color:var(--bleu-fonce);
-  margin:20px 0 10px;
-  font-size:40px;
-}
-
 /* TITRES */
 h1{
   text-align:center;
@@ -130,7 +107,22 @@ h2{
   display:flex;
   gap:15px;
 }
-
+.btn-retour {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #154a79;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 20px;
+  transition: background .25s;
+}
+.btn-retour:hover { background: #8b5a2b; }
 .zoom-controls button{
   width:55px;
   height:55px;
@@ -178,7 +170,7 @@ h2{
 </head>
 
 <body>
- <a href="principal.html" class="btn-retour">← Retour</a>
+  <a href="principal.html" class="btn-retour">← Retour</a>
 <h1>Annales d'Examens</h1>
 <p class="intro">
   Cette page regroupe les sujets d’épreuves et leurs corrections.
@@ -194,6 +186,7 @@ h2{
   <img src="reseauX5.jpeg" alt="Sujet Réseau 5" onclick="ouvrir(this.src)">
   
   <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="Télécharger le PDF" onclick="ouvrirPDF('reseau.pdf')">
+  <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="Télécharger le PDF" onclick="ouvrirPDF('Examen_Synthese_Services_Reseaux.pdf')">
 </div>
 
 <div id="modal">
