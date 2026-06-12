@@ -181,15 +181,6 @@ h2{
 <script>
 let zoom = 1;
 
-function ouvrirPDF(src){
-  const modal = document.getElementById("modal");
-  const pdf   = document.getElementById("modalPDF");
-  const img   = document.getElementById("modalIMG");
-  img.style.display = "none";
-  pdf.style.display = "block";
-  pdf.src = src;
-  modal.style.display = "flex";
-}
 
 function ouvrirImage(src){
   const modal = document.getElementById("modal");
@@ -201,6 +192,10 @@ function ouvrirImage(src){
   img.style.transform = "scale(1)";
   zoom = 1;
   modal.style.display = "flex";
+}
+
+function ouvrirPDF(fichier){
+  window.open(fichier, "_blank");
 }
 
 function zoomPlus(){
